@@ -10,4 +10,4 @@ let add = (a,b) => {
 };
 
 add(4,5)
-.then(res => res, err => err);
+.then(res => console.log(`${res}`), err => err);
