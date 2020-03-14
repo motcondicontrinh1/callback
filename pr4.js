@@ -8,3 +8,6 @@ let add = (a,b) => {
         }, 2000);
     });
 };
+
+add(4,5)
+.then(res => res, err => err);
